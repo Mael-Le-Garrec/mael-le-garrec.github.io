@@ -5,8 +5,9 @@ search: false
 
 @charset "utf-8";
 
+// maximum width of the posts
+$max-width: 1440px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// maximum width of the posts
-$max-width: 1440px;
