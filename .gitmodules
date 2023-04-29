@@ -1,0 +1,3 @@
+[submodule "assets/ED060SC4-Driver-Board-Hardware"]
+	path = assets/ED060SC4-Driver-Board-Hardware
+	url = git@github.com:Mael-Le-Garrec/ED060SC4-Driver-Board-Hardware.git

@@ -5,9 +5,27 @@ search: false
 
 @charset "utf-8";
 
-// maximum width of the posts
+// Maximum width of the posts
 $max-width: 1440px;
+
+// Justify content of posts
+.page__content {
+  text-align: justify;
+}
+
+// But keep the table of contents correctly aligned
+.sidebar__right {
+  text-align: left;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Smaller font size for text
+.page__content {
+  p,
+  dl {
+    font-size: 0.9em;
+  }
+}
 
