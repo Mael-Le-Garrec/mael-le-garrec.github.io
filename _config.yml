@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Maël 'hatrix' Le Garrec"
   #avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Computer Engineer now doing a physics PhD on Particle Accelerators"
+  bio    : "Computer Engineer currently doing a physics PhD on Particle Accelerators"
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
