@@ -48,8 +48,17 @@ $base0f: #333333 !default;
 // Smaller font size for text
 .page__content {
   p,
-  dl {
-    font-size: 0.9em;
+  dl,
+  ul {
+    font-size: 0.9em !important;
+  }
+
+  li {
+    margin-bottom: 0.0em !important;
+  }
+
+  ul {
+    margin-top: 0em !important;
   }
 }
 
