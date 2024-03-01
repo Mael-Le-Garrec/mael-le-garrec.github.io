@@ -36,6 +36,8 @@ This post goes over the requirements of the project, the design of the PCB,
 a glance over the Home Assistant panel, the design and printing of a case and
 then finally the possible improvements that could be made.
 
+The KiCad and FreeCAD files can be found on the [github repository](https://github.com/Mael-Le-Garrec/ESP-01S_thermometer).
+
 
 ## Requirements
 
