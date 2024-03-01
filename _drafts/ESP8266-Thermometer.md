@@ -62,3 +62,64 @@ There are only a few other parts:
   * With its two capacitors
 * Some connector for the ESP-01S to avoid soldering it
 
+
+## Learning PCB Design
+
+I've never designed a PCB in my life and I've always found that quite
+frightening, as if you _had_ to be a professional to make them! Turns out it's
+quite easy to make something simple and numerous resources exist online.
+I started with the tutorials from [DigiKey on youtube](https://www.youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB) to learn how to use KiCad.
+[Phil's Lab](https://www.youtube.com/@PhilsLab/search?query=kicad) also has
+very high quality videos on designing even complex boards with KiCad.
+
+
+# Schematics
+
+The circuit is pretty simple. I found it cool to use labels and separate each
+component "group" like I did just below.
+
+![](/assets/images/esp01s_thermometer/schematic.svg)
+
+After having worked on other projects, this is dumb. Don't do that. This
+circuit is extremely simple, it does not require to separate everything. The
+only thing it does, is making the circuit hard to read. A better drawing of
+that same circuit is the following, smaller and quickly understandable. I am
+sure there's always something to nitpick about but it looks OK to me right now.
+
+![](/assets/images/esp01s_thermometer/schematic_better.svg)
+
+
+# PCB
+
+<img class="align-right" src="/assets/images/esp01s_thermometer/3d.png" width="20%"/>
+
+The PCB part was quite fun! I am measuring temperature here, and I wanted to
+make sure the 3.3V regulator was not going to interfere with the readings. I
+empirically tested that the temperature of the regulator was negligible about 5
+centimeters away. I also read an interesting [paper from TI](https://www.tij.co.jp/lit/an/snoa967a/snoa967a.pdf?ts=1709260459138&ref_url=https%253A%252F%252Fwww.google.com%252F)
+on the guidelines for using a temperature sensor.
+
+I implemented two of those guidelines: removing the ground plane near the sensor and adding a cut in the board to create an isolation island (Fig. 16).
+Mounting holes will be used with M3 screws in a case and an additional
+connector can be used to plug in a second sensor if needed.
+In retrospective, I believe I could have gotten away with a smaller PCB.
+
+An interactive webpage with the PCB, nets, components can be found on [github.io](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Mael-Le-Garrec/ESP-01S_thermometer/v1.0.0/html/board.html)
+
+# Designing a Case
+
+FreeCAD tutorial  
+
+
+# Final Product
+
+<img src="/assets/images/esp01s_thermometer/case.jpg"/>
+
+<img src="/assets/images/esp01s_thermometer/case_counter.jpg"/>
+
+<img src="/assets/images/esp01s_thermometer/ha.png"/>
+
+
+# Further Improvements
+
+5.1k

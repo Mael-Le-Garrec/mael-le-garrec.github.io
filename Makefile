@@ -1,5 +1,5 @@
 dev:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --drafts
 
 install:
 	bundle install --path ~/.gem
