@@ -72,8 +72,9 @@ I started with the tutorials from [DigiKey on youtube](https://www.youtube.com/p
 [Phil's Lab](https://www.youtube.com/@PhilsLab/search?query=kicad) also has
 very high quality videos on designing even complex boards with KiCad.
 
+# KiCad
 
-# Schematics
+## Schematics
 
 The circuit is pretty simple. I found it cool to use labels and separate each
 component "group" like I did just below.
@@ -89,7 +90,7 @@ sure there's always something to nitpick about but it looks OK to me right now.
 ![](/assets/images/esp01s_thermometer/schematic_better.svg)
 
 
-# PCB
+## PCB
 
 <img class="align-right" src="/assets/images/esp01s_thermometer/3d.png" width="20%"/>
 
@@ -108,10 +109,16 @@ An interactive webpage with the PCB, nets, components can be found on [github.io
 
 # Designing a Case
 
+## FreeCAD
+
 FreeCAD tutorial  
 
+## Printing
 
-# Final Product
+
+# Conclusion
+
+## Final Product
 
 <img src="/assets/images/esp01s_thermometer/case.jpg"/>
 
@@ -120,6 +127,6 @@ FreeCAD tutorial
 <img src="/assets/images/esp01s_thermometer/ha.png"/>
 
 
-# Further Improvements
+## Further Improvements
 
 5.1k
